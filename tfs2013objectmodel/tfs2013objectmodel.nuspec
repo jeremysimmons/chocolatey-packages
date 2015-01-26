@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tfs2013objectmodel</id>
+    <version>12.0.21005.13</version>
+    <title>Team Foundation Server 2013 Object Model</title>
+    <authors>Microsoft</authors>
+    <owners>Jeremy Simmons</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/p/?linkid=248155</licenseUrl>
+    <projectUrl>http://github.com/jeremysimmons/chocolatey-packages</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/jeremysimmons/chocolatey-packages/master/icons/vs2013.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is the same Object Model included with the Visual Studio &amp; Team Explorer SKU, in a stand-alone package.  This OM will allow applications to connect to a TFS 2013 server, without the need for a Visual Studio or Team Explorer being installed on the machine. (Proper licensing / CALs are still required)</description>
+    <summary>Stand-alone Object Model Installer for Team Foundation Server 2013</summary>
+    <tags>Team Foundation Server 2013 Visual Studio TFS Object Model</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
